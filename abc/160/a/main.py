@@ -1,4 +1,2 @@
-X = int(input())
-a = X // 500
-b = (X % 500) // 5
-print(1000 * a + 5 * b)
+S = input()
+print("Yes" if S[2] == S[3] and S[4] == S[5] else "No")
